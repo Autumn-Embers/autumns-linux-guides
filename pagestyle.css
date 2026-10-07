@@ -1,4 +1,13 @@
-body {background-color:#111111; color:#72FF13; font-family:Courier New; text-align:center;}
+body {background-color:#111111; color:#72FF13; font-family:Courier New; text-align:center; animation: fadeInAnimation ease 3s; animation-iteration-count: 1; animation-fill-mode: forwards;}
+@keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
 table {margin:-8px;}
 th, td {border:6px ridge #bf00ff; border-radius:12px; text-align:center; background-color:#232323;}
 h1 {color:#fff600; text-shadow: 3px 3px #ff63c7; font-size:300%; font-family:Courier New; text-align:center; border:5px #bf00ff; border-radius:12px; border-top-style:dashed; border-bottom-style:dashed; border-left-style:dashed; border-right-style:dashed; display:inline-block; padding:3px; outline-style:ridge; outline-width:5px; outline-color:#bf00ff; outline-offset:3px;}
