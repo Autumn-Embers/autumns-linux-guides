@@ -1,4 +1,4 @@
-body {background-color:#111111; color:#72FF13; font-family:Courier New; border:ridge 10px #404040; border-radius:20px; text-align:center; animation: fadeInAnimation ease 3s; animation-iteration-count: 1; animation-fill-mode: forwards;}
+body {background-color:#111111; color:#72FF13; font-family:Courier New; text-align:center; animation: fadeInAnimation ease 3s; animation-iteration-count: 1; animation-fill-mode: forwards;}
 @keyframes fadeInAnimation {
             0% {
                 opacity: 0;
