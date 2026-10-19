@@ -4,7 +4,7 @@ th, td {border:6px ridge #bf00ff; border-radius:12px; text-align:center; margin-
 h1 {color:#fff600; text-shadow: 3px 3px #ff63c7; font-size:300%; font-family:Courier New; text-align:center; border:5px #bf00ff; border-radius:12px; border-top-style:dashed; border-bottom-style:dashed; border-left-style:dashed; border-right-style:dashed; display:inline-block; padding:3px; outline-style:ridge; outline-width:5px; outline-color:#bf00ff; outline-offset:3px;} 
 .link {background-color:#bf00ff; color:#72FF13; padding: 6px 6px; text-align: center; text-decoration: none; display:inline-block;} 
 a:hover, a:active {background-color:#007FFF; cursor:cell;}   
-.button {transition:border-radius 0.2s ease; transform:0.2s; background-color:#bf00ff; border-radius:5px; padding:6px 6px; color:#72FF13; text-decoration:none; text-align:center; display:inline-block;}
+.button {transition:border-radius 0.2s ease; transform:0.2s; background-color:#bf00ff; border-radius:8px; padding:6px 6px; color:#72FF13; text-decoration:none; text-align:center; display:inline-block;}
 .button:hover {transform:scale(0.95); border-radius:20px; cursor:cell;}
 div {text-align:center;}
 img {color:red;}
